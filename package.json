@@ -1,0 +1,23 @@
+{
+  "name": "momentjs-es6",
+  "version": "2.18.1",
+  "main": "moment.js",
+  "repository": "https://github.com/HitkoDev/momentjs-es6.git",
+  "author": "Marko Novak <marko.novak@erpium.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-better-rollup": "^1.1.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-flatmap": "^1.0.0",
+    "gulp-minify": "https://github.com/HitkoDev/gulp-minify#patch-1",
+    "gulp-sourcemaps": "^2.6.1",
+    "moment": "^2.18.1",
+    "rollup-plugin-commonjs": "^8.2.1",
+    "rollup-plugin-node-resolve": "^3.0.0",
+    "rollup-plugin-replace": "^2.0.0"
+  },
+  "scripts": {
+    "rollup": "gulp"
+  }
+}
